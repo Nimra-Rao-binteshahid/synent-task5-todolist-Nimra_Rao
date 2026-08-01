@@ -104,4 +104,4 @@ function updateCount() {
   const tasks = getTasksFromStorage();
   const pendingTasks = tasks.filter(task => !task.completed);
   taskCount.textContent = `${pendingTasks.length} task${pendingTasks.length !== 1 ? 's' : ''} left`;
-}
+} 
